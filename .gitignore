@@ -1,0 +1,4 @@
+*backup\s\d*.jl
+
+*.jl
+pluto_state_cache
