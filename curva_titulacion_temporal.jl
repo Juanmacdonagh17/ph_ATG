@@ -56,11 +56,11 @@ begin
 	md"""
 	$\require{mhchem}$
 # 	""";
-	html"""<style>
-main {
-    max-width: 1200px;
-}
-"""
+html"""<style>
+main { max-width: 900px; margin: 0 auto; padding: 0 16px; }
+pluto-cell, pluto-output { overflow-x: auto; }
+</style>"""
+
 end
 
 # ╔═╡ ca743222-5da5-46d3-bfcd-53fab31acd8c
